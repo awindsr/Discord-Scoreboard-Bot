@@ -1,4 +1,4 @@
-```
+
 # Discord Scoreboard Bot
 
 The Discord Scoreboard Bot is a Python-based Discord bot designed to manage and display scoreboards in Discord channels. It allows users to generate and update scoreboards based on data provided in CSV files, and it automatically sends update messages and images at regular intervals.
