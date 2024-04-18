@@ -1,0 +1,25 @@
+{
+    "name": "Discord Scoreboard Bot",
+    "description": "A Discord bot for managing and displaying scoreboards.",
+    "repository": "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME",
+    "logo": "https://example.com/logo.png",
+    "keywords": ["discord", "bot"],
+    "env": {
+      "DISCORD_TOKEN": {
+        "description": "Discord Bot Token",
+        "required": true
+      }
+    },
+    "scripts": {
+      "start": "python bot.py"
+    },
+    "addons": [
+      "heroku-postgresql"
+    ],
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
+  
